@@ -1,0 +1,11 @@
+menu "Zephyr Kernel"
+    source "Kconfig.zephyr"
+endmenu
+
+menu "Meshbus Firmware"
+    menu "Logging"
+        module = APP
+        module-str = APP
+        source "subsys/logging/Kconfig.template.log_config"
+    endmenu
+endmenu

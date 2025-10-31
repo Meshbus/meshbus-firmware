@@ -1,0 +1,33 @@
+/bootloader
+/modules
+/tools
+/build
+/build*
+/twister-out*
+/cmake-build-*
+/meshbus
+/zephyr
+
+# Python
+__pycache__
+.python-version
+.venv
+
+# clangd
+app/.cache/
+
+# JetBrains
+.idea/
+**/cmake-build-*
+
+# macOS
+**/.DS_Store
+
+# Agents
+.serena
+
+# Exclude configuration files
+.vscode/*
+!.vscode/cmake-kits.json
+!.vscode/cmake-variants.json
+/.cache

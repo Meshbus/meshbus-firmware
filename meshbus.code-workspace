@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"name": "app",
+			"path": "app"
+		},
+		{
+			"name": "meshbus",
+			"path": "meshbus"
+		},
+		{
+			"name": "workspace",
+			"path": "."
+		},
+	],
+	"settings": {
+		"window.title": "Meshbus Firmware",
+		"cmake.ignoreCMakeListsMissing": true,
+		"cmake.configureOnOpen": false,
+		"cmake.enableAutomaticKitScan": false,
+		"cmake.sourceDirectory": "${workspaceFolder}/nonexistent",
+	},
+	"extensions": {
+		"recommendations": [
+			"ac6.zephyr-workbench"
+		]
+	}
+}

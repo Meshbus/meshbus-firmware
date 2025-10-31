@@ -1,0 +1,17 @@
+manifest:
+  remotes:
+    - name: zephyrproject
+      url-base: https://github.com/zephyrproject-rtos
+    - name: meshbus
+      url-base: https://github.com/meshbus
+  projects:
+    - name: zephyr
+      repo-path: zephyr
+      remote: zephyrproject
+      revision: main
+      import: true
+    - name: meshbus-sdk
+      repo-path: meshbus-sdk
+      remote: meshbus
+      revision: main
+      path: meshbus
